@@ -1,0 +1,38 @@
+@import "/src/scss/variables";
+
+@import "~bootstrap/scss/bootstrap";
+
+$bg-color: #f8f9fa; // light gray from the Bootstrap palette
+$primary-color: #007bff; // Bootstrap primary blue
+
+body {
+  background-color: $bg-color;
+}
+
+.logo {
+  color: $primary-color;
+  font-weight: bold;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+// Customize the form
+.post-form {
+  textarea {
+    resize: none; // prevent resizing the textarea
+  }
+}
+
+// Feed posts styling
+.post-thumbnail {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  .post-author {
+    color: $primary-color;
+  }
+}
+
+// Add more styles as needed
