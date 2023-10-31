@@ -1,9 +1,7 @@
-@import "/src/scss/variables";
-
 @import "~bootstrap/scss/bootstrap";
 
-$bg-color: #f8f9fa; // light gray from the Bootstrap palette
-$primary-color: #007bff; // Bootstrap primary blue
+$bg-color: #f8f9fa;
+$primary-color: #007bff;
 
 body {
   background-color: $bg-color;
@@ -17,14 +15,12 @@ body {
   }
 }
 
-// Customize the form
 .post-form {
   textarea {
-    resize: none; // prevent resizing the textarea
+    resize: none;
   }
 }
 
-// Feed posts styling
 .post-thumbnail {
   background-color: #fff;
   padding: 1rem;
@@ -34,5 +30,3 @@ body {
     color: $primary-color;
   }
 }
-
-// Add more styles as needed
