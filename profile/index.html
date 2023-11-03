@@ -54,22 +54,24 @@
           <div class="text-center">
             <img
               src="/assets/2.selfie_3_11zon.png"
-              class="rounded-circle mb-3"
+              class="rounded-circle mb-4"
               alt="Profile Picture"
               width="120"
             />
             <h3>Teitrheim</h3>
             <button class="btn btn-outline-light">FOLLOW</button>
-            <div class="mt-4 mb-5">
-              <h5>About</h5>
-              <p>
-                Welcome to talkActive! My name is Thomas Eitrheim. I find
-                immense joy in everything about front-end development and is
-                dedicated to creating engaging and responsive web experiences.
-                This website showcases my first project using bootstrap and
-                sass.
-              </p>
+            <div class="d-flex justify-content-center mt-4 mb-4">
+              <div class="col-6 text-center">
+                <h5>Followers</h5>
+                <p class="lead">63</p>
+              </div>
+              <div class="col-6 text-center">
+                <h5>Following</h5>
+                <p class="lead">121</p>
+              </div>
             </div>
+
+            <div class="mt-4 mb-5 bg-white border shadow border rounded"></div>
             <h4>Latest posts</h4>
             <section>
               <article class="mb-4 p-4 bg-white border shadow border rounded">
@@ -167,6 +169,13 @@
         </div>
       </div>
     </div>
+    <footer class="text-center mt-5 mb-3">
+      <p>
+        &copy;
+        <?php echo date("Y"); ?>
+        teitrheim. All rights reserved.
+      </p>
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
